@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/vervegroup/Smaato-ios-sdk-standalone.git", exact: "23.1.0")
+        .package(url: "https://github.com/vervegroup/Smaato-ios-sdk-standalone.git", exact: "23.2.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationSmaatoAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/smaato-adapter/AppLovinMediationSmaatoAdapter-23.1.0.0.zip",
-            checksum: "aea615be876691fa06dc547a25408b53994fbb31a8ead6d64ac58128496c0a58"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/smaato-adapter/AppLovinMediationSmaatoAdapter-23.2.0.0.zip",
+            checksum: "a3cba86343456fb4756ced0d91c8c645b00389a09ae3d7e257616ba4a90ab720"
         )
     ]
 )
