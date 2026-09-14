@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationSmaatoAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationSmaatoAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationSmaatoAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/smaato-adapter/AppLovinMediationSmaatoAdapter-23.2.1.0.zip",
-            checksum: "93649523a64983ab96520542efe36d70523bc77c564d7949f9940275781a160b"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/smaato-adapter/AppLovinMediationSmaatoAdapter-23.2.1.1.zip",
+            checksum: "3f56c515ea4cd74cc607d27763443b042798c47565642653913efd267fdb854e"
         )
     ]
 )
